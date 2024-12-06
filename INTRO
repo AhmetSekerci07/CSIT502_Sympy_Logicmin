@@ -1,0 +1,20 @@
+SymPy:
+
+SymPy is a Python library for symbolic mathematics that allows us to solve mathematical expressions symbolically.
+It is used for symbolic logic operations.
+The symbols function in this library is used to define symbolic variables (e.g., A, B, C).
+We can use functions like And, Or, and Not to define logical expressions. These functions represent logical operations: AND, OR, and NOT.
+The simplify function is used to simplify logical expressions.
+The truth_table function creates a truth table for a given logical expression.
+
+
+LogicMin:
+
+LogicMin is used for minimizing logical circuits and creating truth tables.
+The logicmin.TT class is used to create a truth table. This class allows us to specify the number of inputs and outputs (e.g., TT(2, 1) creates a truth table with 2 inputs and 1 output).
+To add different input-output combinations to the table, we use the add function.
+The solve function is used to minimize the expression defined by the truth table.
+In summary:
+
+SymPy is used for symbolic logic operations and simplifying expressions. Functions like And, Or, and Not allow for symbolic operations.
+LogicMin is mainly used to create truth tables and minimize the expressions derived from these tables.

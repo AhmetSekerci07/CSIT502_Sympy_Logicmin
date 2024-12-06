@@ -1,0 +1,15 @@
+Problem 1 (LogicMin): Simplify the expression (A AND B) OR (NOT A AND B)
+Explanation: This problem uses LogicMin to simplify the given Boolean expression. The expression involves combining AND and OR operations between A and B.
+We construct a truth table that represents the possible inputs (A, B) and their corresponding outputs, then use LogicMin to minimize this table to a simplified expression.
+
+Problem 2 (LogicMin): Simplify the expression A XOR B
+Explanation: This problem uses LogicMin to simplify the XOR operation between A and B. XOR returns True if the inputs are different (A=1, B=0 or A=0, B=1).
+The code creates a truth table and uses LogicMin to derive the minimized form of the XOR expression.
+
+Problem 3 (SymPy): Simplify the expression (A AND B) OR (NOT A AND B)
+Explanation: This problem uses SymPy's simplify() function to minimize the given Boolean expression.
+The simplify function finds a more concise representation of the expression, which reduces the number of operations.
+
+Problem 4 (SymPy): Create a truth table for the expression (A AND B) OR C
+Explanation: This problem uses SymPy to create a truth table for the expression (A AND B) OR C.
+The truth table displays all possible input combinations of A, B, and C along with their corresponding output values. This helps to visualize and understand the behavior of the Boolean expression for all possible inputs.

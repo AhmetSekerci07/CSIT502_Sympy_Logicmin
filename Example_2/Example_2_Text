@@ -1,0 +1,19 @@
+Problem 5 (LogicMin): Simplify the expression (A AND B AND C) OR (A AND NOT B AND NOT C)
+Explanation: This problem uses LogicMin to minimize a more complex Boolean expression involving three variables (A, B, C). LogicMin is used to determine the simplest form of the given expression.
+
+Problem 6 (LogicMin): Simplify the expression (A OR B) AND (NOT C OR D)
+Explanation: This problem uses LogicMin to simplify a Boolean expression with four inputs (A, B, C, D).
+The expression involves both AND and OR operations. LogicMin helps in finding a more efficient representation of the expression.
+
+Problem 7 (SymPy): Simplify the expression (A AND (B OR C)) OR (NOT A AND (B AND NOT C))
+Explanation: This problem uses SymPy to simplify a complex Boolean expression involving multiple logical operations (AND, OR, NOT).
+The simplify() function is used to reduce the complexity of the expression, making it easier to understand or implement.
+
+Problem 8 (SymPy): Create a truth table for the expression (A OR B) AND (C OR D)
+Explanation: This problem uses SymPy to generate a truth table for the Boolean expression involving four variables (A, B, C, D).
+The truth table displays all possible combinations of input values and their corresponding output, which helps to visualize the logic of the expression comprehensively.
+
+
+
+
+
